@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <title>Gender and age detection app</title>
+
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:600'>
+    <link rel="stylesheet" href="gui_example.css">
+    <script src="gui_example.js"></script>
+
+</head>
+
+<body class="flex-fill">
+
+    <div class="login-wrap">
+        <div class="login-html">
+            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Detection d'age et sexe avec python</label>
+            <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab"></label>
+            <div class="login-form">
+                <div class="sign-in-htm">
+
+                    <div class="mx-auto d-flex bd-highlight" style="width: 600px;">
+                        <form class="flex-fill p-2 ">
+                            <div class="custom-file">
+                                <label class="custom-file-label" for="file_browse">Selectionnez une image</label>
+                                <input type="file" class="custom-file-input" id="file_browse" name="file_browse"
+                                    accept="image/png, image/jpeg" />
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class="group p-2">
+                        <input id="start_detect" type="submit" class="button" value="Detecter">
+                    </div>
+
+                    <div class="foot-lnk">
+                        <a href="#forgot">Doha & Abir @ 2022</a>
+                    </div>
+
+                </div>
+                <div class="sign-up-htm">
+
+                    <label for="user" class="label">
+                        This is a simple example on how to use electron as a GUI With python.<br>
+                    </label>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
